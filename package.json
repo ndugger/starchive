@@ -1,0 +1,29 @@
+{
+  "name": "starchive",
+  "version": "1.0.0",
+  "description": "NASA Image Archive",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc & node exe"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndugger/starchive.git"
+  },
+  "author": "Nick Dugger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ndugger/starchive/issues"
+  },
+  "homepage": "https://github.com/ndugger/starchive#readme",
+  "devDependencies": {
+    "@types/node": "^14.10.1",
+    "@types/xml2js": "^0.4.5",
+    "typescript": "^4.0.2"
+  },
+  "dependencies": {
+    "moment": "^2.28.0",
+    "piexif-ts": "^2.0.16",
+    "xml2js": "^0.4.23"
+  }
+}

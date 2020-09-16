@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "lib": [
+        "dom",
+        "esnext",
+      ],
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "outDir": "exe",
+      "paths": {
+        "*": [ "*" ],
+        "this": [ "src" ],
+        "this/*": [ "src/*" ]
+      },
+      "removeComments": true,
+      "target": "es6"
+    },
+    "include": [
+      "**/*"
+    ]
+  }
